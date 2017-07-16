@@ -1,0 +1,11 @@
+# dotenv environment variables file
+.development.env
+.production.env
+
+# Modules
+node_modules/
+
+# Mac OS File
+.idea/
+
+server.iml

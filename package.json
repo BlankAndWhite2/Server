@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "ENV=DEVELOPMENT node ./bin/www",
+    "prod": "ENV=PRODUCTION node ./bin/www",
+    "serve": "supervisor ./bin/www",
+    "test": "./node_modules/.bin/mocha -w */**/**.spec.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "dotenv": "^4.0.0",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "mocha": "^3.4.2",
+    "morgan": "~1.8.1",
+    "mysql": "^2.13.0",
+    "serve-favicon": "~2.4.2",
+    "should": "^11.2.1",
+    "supertest": "^3.0.0"
+  }
+}
