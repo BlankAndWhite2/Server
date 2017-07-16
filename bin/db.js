@@ -11,6 +11,9 @@ var sequelize = new Sequelize(env.MYSQL_DB_PATH, env.MYSQL_DB_USER_NAME, env.MYS
     min: 0,
     idle: 10000
   },
+  define: {
+    timestamps: false
+  }
 });
 
 module.exports = {
