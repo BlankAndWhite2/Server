@@ -17,6 +17,8 @@ if(process.env.ENV === 'PRODUCTION') {
 
 dotenv.config(dotenvConfig);
 
+var syncDB = require('./sync-db');
+
 /**
  * Module dependencies.
  */
